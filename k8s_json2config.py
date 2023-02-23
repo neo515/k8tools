@@ -10,7 +10,10 @@ import pprint
 
 config={'apiVersion': 'v1', 'kind': 'Config', 'preferences': {}, 'clusters': [], 'contexts': [], 'users': []}
 
-config_json=os.path.join(os.path.expanduser('~'),'.kube/formatted_config.json')
+# config_json=os.path.join(os.path.expanduser('~'),'.kube/formatted_config.json')
+config_json="formatted_config.json"
+
+
 # config_new =os.path.join(os.path.expanduser('~'),'.kube/config.new')
 config_new = "config"
 
