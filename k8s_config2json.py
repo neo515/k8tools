@@ -9,7 +9,8 @@ import yaml
 import json
 import os
 
-yaml_file='/Users/neo/.kube/config'
+yaml_file=os.path.join(os.path.expanduser('~'),'.kube/config')
+
 yaml_f=open(yaml_file)
 configs=yaml.load(yaml_f,Loader=yaml.FullLoader)
 
