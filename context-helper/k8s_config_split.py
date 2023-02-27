@@ -17,6 +17,9 @@ configs=yaml.load(yaml_f,Loader=yaml.FullLoader)
 # output_dir=os.path.join(os.path.expanduser('~'),'.kube/split')
 output_dir="split"
 
+if not os.path.exists(output_dir):
+    os.mkdir(output_dir)
+
 # config={'apiVersion': 'v1', 'kind': 'Config', 'preferences': {}, 'clusters': [], 'contexts': [], 'users': []}
 
 for context in configs["contexts"]:
