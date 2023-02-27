@@ -1,7 +1,9 @@
 # k8tools
 ## 一、说明
 k8s_config2json.py   #将config文件输出为json格式，并重新格式化每个context的输出格式便于阅读。
+
 k8s_json2config.py   #将k8s_config2json.py输出的json文件转回config文件。一般结合k8s_config2json.py一起使用。
+
 k8s_config_split.py   #拆分config中的每一个context为独立的“config” context文件。
 
 ### 1. k8s_config2json.py
