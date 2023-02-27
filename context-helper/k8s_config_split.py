@@ -2,6 +2,7 @@
 # coding:  utf8
 
 # 拆分config中每个context为独立的文件
+# 如果想将某个集群的链接权限给别人，这个或许可以快速搞定这个需求。
 
 import pprint
 import yaml

@@ -2,7 +2,7 @@
 # coding:  utf8
 
 # 转换k8s的context文件
-# config  --> json(有改写)
+# config  --> json (有改写)
 
 import pprint
 import yaml

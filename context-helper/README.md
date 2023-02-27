@@ -8,6 +8,7 @@
 
 ```json
 {
+    // 每个context独立输出
     // CN-Prod-01-admin context
     {
         "name": "CN-Prod-01-admin",
@@ -51,7 +52,6 @@
 > 拆分config文件为独立的context
 
 
-
 # best practice
 
 ```shell
@@ -61,4 +61,3 @@
 3. 调整formatted_config.json
 4. python3 k8s_json2config.py
 ```
-
