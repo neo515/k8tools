@@ -4,9 +4,9 @@
 # 拆分config中每个context为独立的文件
 # 如果想将某个集群的链接权限给别人，这个或许可以快速搞定这个需求。
 
-import pprint
+# import pprint
 import yaml
-import json
+# import json
 import os
 
 yaml_file=os.path.join(os.path.expanduser('~'),'.kube/config')
